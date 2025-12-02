@@ -81,7 +81,7 @@ class Solution:
 
 
 if __name__=="__main__":
-    nums = [1, 2, 4, 6, 7, 5]
+    nums = [1, 2, 4, 6, 7, 7, 5]
     sol = Solution()
     result = sol.secondLargestElement(nums)
     print(f"Second Largest Element: {result}")
