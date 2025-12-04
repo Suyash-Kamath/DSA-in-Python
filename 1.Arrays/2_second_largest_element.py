@@ -87,15 +87,3 @@ if __name__=="__main__":
     print(f"Second Largest Element: {result}")
 
 
-"""
-
-Always Remember: 
-
-- In Python , set is iterable but not indexable 
-- Python does not support incremental Operator
-- Set is in random operator
-- sorted() returns list , no matter whatever you pass
-
-- time complexity of sorted(set(nums)) is O(n) + O(nlogn)
-
-"""
