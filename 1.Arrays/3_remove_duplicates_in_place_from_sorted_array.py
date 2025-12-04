@@ -26,10 +26,10 @@ class Solution:
          index =0
          for j in range(1,len(nums)):
             if nums[index]!=nums[j]:
-               nums[index]=nums[j]
                index+=1
+               nums[index]=nums[j]
         
-         return index
+         return index+1
               
 
 
